@@ -4,7 +4,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
   res.render('pages/home', { 
     title: 'Pokémon World', 
-    welcomeMessage: 'Welcome to the world of Pokémon!'
+    welcomeMessage: 'Welcome to the world of Pokemon!'
   });
 });
 
